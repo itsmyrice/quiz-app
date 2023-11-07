@@ -1,161 +1,182 @@
 * {
- box-sizing: border-box;
- margin: 0;
- padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(221, 235, 238); 
-    font-family: 'Handlee', cursive;
-    color: rgb(59, 58, 58);
-
-    
+  background-color: rgb(221, 235, 238);
+  font-family: "Handlee", cursive;
+  color: rgb(59, 58, 58);
 }
 
 .navbar {
-    background-color: rgb(118, 159, 168);
-    border: 1px solid black;
-    position: fixed;
-    z-index: 1;
-    bottom: 0;
-    width: 100%;
-    padding: 0.6rem 0;
-    display: flex;   
+  background-color: rgb(118, 159, 168);
+  border: 1px solid black;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  padding: 0.6rem 0;
+  display: flex;
 }
 
 .navbar ul {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
 }
 
 li a {
-    font-size: 1.8rem; 
-    cursor: pointer;
-    color: rgb(221, 235, 238);
-   
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: rgb(221, 235, 238);
 }
 
-li a:hover {
+a:hover {
     color: rgb(59, 58, 58);
 }
 
 section {
-   background-color: rgb(188, 211, 216);
-   border: 1px solid black;
-   margin: 2rem 2rem; 
-   
- 
+  background-color: rgb(188, 211, 216);
+  margin: 2rem 2rem;
 }
 
 h1 {
-    background-color: rgb(188, 211, 216);
-    border: 1px solid black;
-    margin: 0 2rem;
-    padding: 1rem 0;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-
+  background-color: rgb(188, 211, 216);
+  border: 1px solid black;
+  margin: 0 2rem;
+  padding: 1rem 0;
+  font-size: 3.2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .question-box {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    height: 400px;
-    padding: 40px;
-    margin: 5rem 0;
-} 
-
-.bookmark {
-   position: absolute;
-   font-size: 35px;
-   right: 100px;
-   top: 0;
-   
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 400px;
+  padding: 40px;
+  margin: 5rem 0;
 }
 
-i:hover {
-    background-color: rgb(118, 159, 168);
+.bookmark {
+  cursor: pointer;
+  position: absolute;
+  font-size: 2.3rem;
+  right: 100px;
+  top: 0;
+}
+
+.question-box i:hover {
+  color: rgb(118, 159, 168);
 }
 
 h2 {
-    font-size: 2.3rem;
+  font-size: 2.4rem;
 }
 
 h3 {
-   font-size: 1.2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 button {
-    background-color: rgb(118, 159, 168);
-    border: 1px solid black;
-    border-radius: 35%;
-    font-family: 'Handlee', cursive;
-    color: rgb(59, 58, 58);
-    cursor: pointer;
-    padding: 1rem;
+  background-color: rgb(118, 159, 168);
+  border: 1px solid black;
+  border-radius: 35%;
+  font-family: "Handlee", cursive;
+  color: rgb(59, 58, 58);
+  cursor: pointer;
+  padding: 1rem;
 }
 
 button:hover {
-    background-color: rgb(146, 192, 202);
+  background-color: rgb(146, 192, 202);
 }
 
 .tags p {
-   background-color: rgb(118, 159, 168);
-   border: 1px solid black;
-   border-radius: 20%;
-   margin: 1rem;
-   padding: 0.5rem;
-   display: inline; 
-   right: 30rem;
-   bottom: 1rem;  
+  background-color: rgb(118, 159, 168);
+  border: 1px solid black;
+  border-radius: 20%;
+  margin: 1rem;
+  padding: 0.5rem;
+  display: inline;
+  right: 30rem;
+  bottom: 1rem;
+  font-size: 1.3rem;
 }
 
 /* For the profile */
 
 .hero {
-    background-color: rgb(188, 211, 216);
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 3rem 0;  
+  background-color: rgb(188, 211, 216);
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem 0;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  height: 450px;
 }
 
 img {
-    height: 20rem;
-    width: 15rem;
-    border-radius: 50%;
+  height: 20rem;
+  width: 15rem;
+  border-radius: 50%;
 }
 
 .about {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 0 5rem;
+  border: 1px solid black;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 5rem;
+  font-size: 1.3rem;
+  margin-bottom: 5rem;
 }
 
-.numbers {  
-    width: 60px;
-    padding: 0.7rem;
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.settings {  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 5rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    height: 200px;
-    margin-bottom: 5rem;
+.numbers i {
+  font-size: 1.3rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
+.settings {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 3rem 5rem;
+  height: 250px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
 
+.settings-01 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+
+.settings-01 i {
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.settings-01 i:hover {
+    color: rgb(118, 159, 168);
+}
