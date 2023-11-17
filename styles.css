@@ -10,6 +10,11 @@ body {
   color: rgb(59, 58, 58);
 }
 
+body.dark {
+  background-color: rgb(59, 58, 58);
+  color: rgb(221, 235, 238);
+}
+
 .navbar {
   background-color: rgb(118, 159, 168);
   border: 1px solid black;
@@ -71,6 +76,12 @@ h1 {
   font-size: 2.3rem;
   right: 100px;
   top: 0;
+  width: 24px;
+}
+
+.toggle__color {
+  fill: red;
+  stroke: white;
 }
 
 .question-box i:hover {
@@ -172,13 +183,22 @@ img {
   justify-content: space-evenly;
   font-size: 1.3rem;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.settings-01 i {
+.button i {
   cursor: pointer;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
-.settings-01 i:hover {
+.button i:hover {
     color: rgb(118, 159, 168);
+}
+
+/* everything new  */
+
+.answer__hide1,
+.answer__hide2,
+.answer__hide3 {
+  display: none;
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="/index.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -19,7 +20,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body data-js="body">
     <header>
       <nav class="navbar">
         <ul>
@@ -41,17 +42,20 @@
     </header>
     <main>
       <h1>Quiz App</h1>
-      <section>
+      <section class="card">
         <article class="question-box">
-          <i class="fa-regular fa-bookmark bookmark"></i>
-
+          <!-- <i class="fa-regular fa-bookmark bookmark" data-js="bookmark-1"></i> -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 bookmark toggle__color" data-js="svg-bookmark1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+          </svg>
+          
           <h2>
             How do you create a simple HTML form with input elements and a
             submit button?
           </h2>
 
-          <button><h3>Show Answer</h3></button>
-
+          <button class="card__button1" data-js="card-button1"><h3 data-js="show-answer1">Show Answer</h3></button>
+          <p class="answer__hide1" data-js="answer-hide1">HTML Form Answer</p>
           <div class="tags">
             <p>#html</p>
             <p>#flexbox</p>
@@ -59,16 +63,21 @@
           </div>
         </article>
       </section>
-      <section>
+      <section class="card">
         <article class="question-box">
-          <i class="fa-regular fa-bookmark bookmark"></i>
+          <!-- <i class="fa-regular fa-bookmark bookmark"></i> -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 bookmark toggle__color" data-js="svg-bookmark2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+          </svg>
+          
 
           <h2>
             How can you make items within a Flexbox container expand to fill the
             available space evenly?
           </h2>
 
-          <button><h3>Show Answer</h3></button>
+          <button class="card__button2" data-js="card-button2"><h3 data-js="show-answer2">Show Answer</h3></button>
+          <p class="answer__hide2" data-js="answer-hide2">Flexbox Container Answer</p>
 
           <div class="tags">
             <p>#html</p>
@@ -77,16 +86,20 @@
           </div>
         </article>
       </section>
-      <section>
+      <section class="card">
         <article class="question-box">
-          <i class="fa-regular fa-bookmark bookmark"></i>
-
+          <!-- <i class="fa-regular fa-bookmark bookmark"></i> -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 bookmark toggle__color" data-js="svg-bookmark3">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+          </svg>
+          
           <h2>
             How can you include web fonts in your CSS to style text on a web
             page?
           </h2>
 
-          <button><h3>Show Answer</h3></button>
+          <button class="card__button3" data-js="card-button3"><h3 data-js="show-answer3">Show Answer</h3></button>
+          <p class="answer__hide3" data-js="answer-hide3">CSS Answer</p>
 
           <div class="tags">
             <p>#html</p>
