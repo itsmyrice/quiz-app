@@ -59,17 +59,17 @@ button3.addEventListener("click", () => {
 const svgB1 = document.querySelector('[data-js="svg-bookmark1"]')
 svgB1.addEventListener("click", () => {
     svgB1.classList.toggle("toggle__color")
-})
+});
 
 const svgB2 = document.querySelector('[data-js="svg-bookmark2"]')
 svgB2.addEventListener("click", () => {
     svgB2.classList.toggle("toggle__color")
-})
+});
 
 const svgB3 = document.querySelector('[data-js="svg-bookmark3"]')
 svgB3.addEventListener("click", () => {
     svgB3.classList.toggle("toggle__color")
-})
+});
 
 // Form Card
 
