@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="/styles.css" />
-    <script src="/index.js" defer></script>
+    <script src="/js/index.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -46,9 +46,9 @@
       </nav>
     </header>
     <main>
-      <h1>Quiz App</h1>
+      <h1>Form</h1>
       <section class="container__1">
-        <form action="" data-js="form" class="form">
+        <form action="form.html" data-js="form" class="form">
           <div class="form__1">
             <label for="question">Your question:</label>
             <textarea
@@ -57,7 +57,7 @@
               data-js="your-question"
               required
               maxlength="150"
-              placeholder="..."
+              placeholder="Write your question here..."
             ></textarea>
           </div>
           <div class="form__2">
@@ -68,18 +68,18 @@
               data-js="your-answer"
               required
               maxlength="150"
-              placeholder="..."
+              placeholder="Write your answer here..."
             ></textarea>
           </div>
           <div class="form__3">
             <label for="tag">Tag:</label>
-            <input type="text" id="tag" data-js="your-tag" placeholder="..." required />
+            <input type="text" id="tag" data-js="your-tag" placeholder="Write your tag here..." required />
           </div>
-          <button type="submit" class="submit__button">Submit</button>
+          <button type="submit" class="submit__button" data-js="button-form">Submit</button>
         </form>
-        <div data-js="card-1" class="card__1">
-          <div class="form__card"></div>
-        </div>
+        <section data-js="card-1" class="card-1">
+          <article class="form__card"></article>
+        </section>
       </section>
     </main>
   </body>

@@ -111,6 +111,15 @@ button:hover {
   opacity: 0.7;
 }
 
+.answer__hide1,
+.answer__hide2,
+.answer__hide3,
+.answer__hide4,
+.answer__hide5,
+.answer__hide6 {
+  display: none;
+}
+
 .tags p {
   background-color: rgb(118, 159, 168);
   border: 1px solid black;
@@ -124,6 +133,7 @@ button:hover {
 }
 
 /* For the profile */
+
 
 .hero {
   background-color: rgb(188, 211, 216);
@@ -160,6 +170,7 @@ img {
   justify-content: space-evenly;
 }
 
+
 .numbers i {
   font-size: 1.3rem;
   display: flex;
@@ -194,19 +205,17 @@ img {
     color: rgb(118, 159, 168);
 }
 
-/* everything new 17.11 */
 
-.answer__hide1,
-.answer__hide2,
-.answer__hide3 {
-  display: none;
-}
+/* everything new 17.11 */
+/* For the form */
+
 
 .container__1 {
   border: 1px solid black;
   display: flex;
   justify-content: center;
-  margin: 2rem 2rem;
+  margin: 5rem 2rem;
+
 }
 
 .form__1,
@@ -215,13 +224,12 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  justify-content: center;
   margin: 2rem 0;
 }
 
 .submit__button {
   margin-bottom: 2rem;
-  margin-left: 12.5rem;
+  margin-left: 14.5rem;
 }
 
 textarea {
@@ -229,6 +237,10 @@ textarea {
   height: 10rem;
 }
 
-input {
-  height: 5rem;
+.form__3 input {
+  height: 2rem;
 }
+
+/* .card {
+  display: none;
+} */
